@@ -204,7 +204,7 @@ void initializeDefaultLightMaterials(out SMaterial materials[7])
     /** MATERIALS **/
     // Back wall 
 
-    materials[1].Color = vec3(0.35, 0.5, 0.25);
+    materials[1].Color = vec3(0.3, 0.5, 0.7);
     materials[1].LightCoeffs = vec4(lightCoefs);
     materials[1].ReflectionCoef = 0.2;
     materials[1].RefractionCoef = 1;
@@ -213,8 +213,7 @@ void initializeDefaultLightMaterials(out SMaterial materials[7])
    
     // Left wall 
 
-    materials[0].Color = vec3(0.0, 0.5, 0.0);
-    // materials[0].Color = vec3(0.94, 0.75, 0.0);
+    materials[0].Color = vec3(0.3, 0.3, 0.3);
     materials[0].LightCoeffs = vec4(lightCoefs);
     materials[0].ReflectionCoef = 0.5;
     materials[0].RefractionCoef = 1;
@@ -222,7 +221,7 @@ void initializeDefaultLightMaterials(out SMaterial materials[7])
 
     // Up triangle and front wall
 
-    materials[2].Color = vec3(0.6, 1.0, 0.0);
+    materials[2].Color = vec3(0.3, 0.3, 0.3);
 	materials[2].LightCoeffs = vec4(lightCoefs);
 	materials[2].ReflectionCoef = 0;
 	materials[2].RefractionCoef = 1;
@@ -230,7 +229,7 @@ void initializeDefaultLightMaterials(out SMaterial materials[7])
 
     // Floor anf right triangle
 
-    materials[4].Color = vec3 (0.8, 0.9, 0.5);
+    materials[4].Color = vec3 (0.3, 0.3, 0.3);
 	materials[4].LightCoeffs = vec4(lightCoefs);
 	materials[4].ReflectionCoef = 0;
 	materials[4].RefractionCoef = 1;
@@ -238,7 +237,7 @@ void initializeDefaultLightMaterials(out SMaterial materials[7])
     
     // Up and right triangles
 
-    materials[3].Color = vec3(0.2, 0.3, 0.1);
+    materials[3].Color = vec3(0.3, 0.3, 0.3);
     materials[3].LightCoeffs = vec4(lightCoefs);
     materials[3].ReflectionCoef = 0;
     materials[3].RefractionCoef = 1;
