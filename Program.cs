@@ -12,7 +12,7 @@ namespace computer_graphics_lab03
             //Установка настроек окна программы
             var nativeWindowSettings = new NativeWindowSettings()
             {
-                Size = new Vector2i(900, 800),
+                Size = new Vector2i(800, 800),
                 Title = "CG Lab03",
                 Flags = ContextFlags.ForwardCompatible
             };
