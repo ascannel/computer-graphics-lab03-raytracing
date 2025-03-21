@@ -1,5 +1,6 @@
 # Ray Tracing with OpenTK
 
+![C#](https://img.shields.io/badge/C%23-8.0-blue)
 ![OpenTK](https://img.shields.io/badge/OpenTK-4.8-blue)
 ![.NET](https://img.shields.io/badge/.NET-6.0-purple)
 
